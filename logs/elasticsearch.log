@@ -1,0 +1,48 @@
+[2013-06-08 22:58:40,362][INFO ][node                     ] [Mantis] {0.90.1}[3787]: initializing ...
+[2013-06-08 22:58:40,369][INFO ][plugins                  ] [Mantis] loaded [], sites []
+[2013-06-08 22:58:43,231][INFO ][node                     ] [Mantis] {0.90.1}[3787]: initialized
+[2013-06-08 22:58:43,231][INFO ][node                     ] [Mantis] {0.90.1}[3787]: starting ...
+[2013-06-08 22:58:43,446][INFO ][transport                ] [Mantis] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.109:9300]}
+[2013-06-08 22:58:46,647][INFO ][cluster.service          ] [Mantis] new_master [Mantis][TL1IdYzDRICWRBdTo7CPZw][inet[/192.168.0.109:9300]], reason: zen-disco-join (elected_as_master)
+[2013-06-08 22:58:46,711][INFO ][discovery                ] [Mantis] elasticsearch/TL1IdYzDRICWRBdTo7CPZw
+[2013-06-08 22:58:46,767][INFO ][http                     ] [Mantis] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.109:9200]}
+[2013-06-08 22:58:46,767][INFO ][node                     ] [Mantis] {0.90.1}[3787]: started
+[2013-06-08 22:58:46,888][INFO ][gateway                  ] [Mantis] recovered [0] indices into cluster_state
+[2013-06-08 23:00:06,028][INFO ][cluster.metadata         ] [Mantis] [test] creating index, cause [api], shards [5]/[1], mappings []
+[2013-06-08 23:00:56,275][INFO ][cluster.metadata         ] [Mantis] [test] update_mapping [user] (dynamic)
+[2013-06-08 23:37:32,119][INFO ][node                     ] [Mantis] {0.90.1}[3787]: stopping ...
+[2013-06-08 23:37:32,185][INFO ][node                     ] [Mantis] {0.90.1}[3787]: stopped
+[2013-06-08 23:37:32,186][INFO ][node                     ] [Mantis] {0.90.1}[3787]: closing ...
+[2013-06-08 23:37:32,210][INFO ][node                     ] [Mantis] {0.90.1}[3787]: closed
+[2013-06-08 23:38:34,787][INFO ][node                     ] [Jaspers, James] {0.90.1}[5323]: initializing ...
+[2013-06-08 23:38:34,802][INFO ][plugins                  ] [Jaspers, James] loaded [analysis-mmseg, analysis-smartcn], sites []
+[2013-06-08 23:38:37,181][INFO ][node                     ] [Jaspers, James] {0.90.1}[5323]: initialized
+[2013-06-08 23:38:37,182][INFO ][node                     ] [Jaspers, James] {0.90.1}[5323]: starting ...
+[2013-06-08 23:38:37,286][INFO ][transport                ] [Jaspers, James] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.109:9300]}
+[2013-06-08 23:38:40,328][INFO ][cluster.service          ] [Jaspers, James] new_master [Jaspers, James][9CdGvp3yQ92k9rKNwFs9Zg][inet[/192.168.0.109:9300]], reason: zen-disco-join (elected_as_master)
+[2013-06-08 23:38:40,358][INFO ][discovery                ] [Jaspers, James] elasticsearch/9CdGvp3yQ92k9rKNwFs9Zg
+[2013-06-08 23:38:40,376][INFO ][http                     ] [Jaspers, James] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.109:9200]}
+[2013-06-08 23:38:40,377][INFO ][node                     ] [Jaspers, James] {0.90.1}[5323]: started
+[2013-06-08 23:38:40,624][INFO ][index.analysis           ] [Jaspers, James] [test] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:38:40,828][INFO ][com.chenlb.mmseg4j.Dictionary] chars loaded time=203ms, line=12638, on file=/home/kamechen/elasticsearch-0.90.1/config/mmseg/chars.dic
+[2013-06-08 23:38:41,176][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=347ms, line=157202, on file=/home/kamechen/elasticsearch-0.90.1/config/mmseg/words.dic
+[2013-06-08 23:38:41,177][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=0ms, line=1, on file=/home/kamechen/elasticsearch-0.90.1/config/mmseg/words-my.dic
+[2013-06-08 23:38:41,177][INFO ][com.chenlb.mmseg4j.Dictionary] load all dic use time=552ms
+[2013-06-08 23:38:41,179][INFO ][com.chenlb.mmseg4j.Dictionary] unit loaded time=1ms, line=22, on file=/home/kamechen/elasticsearch-0.90.1/config/mmseg/units.dic
+[2013-06-08 23:38:41,182][INFO ][index.analysis           ] [Jaspers, James] [test] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:38:41,184][INFO ][index.analysis           ] [Jaspers, James] [test] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:38:41,187][INFO ][index.analysis           ] [Jaspers, James] [test] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:38:41,757][INFO ][gateway                  ] [Jaspers, James] recovered [1] indices into cluster_state
+[2013-06-08 23:43:22,149][INFO ][index.analysis           ] [Jaspers, James] [index] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:43:22,152][INFO ][index.analysis           ] [Jaspers, James] [index] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:43:22,154][INFO ][index.analysis           ] [Jaspers, James] [index] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:43:22,159][INFO ][index.analysis           ] [Jaspers, James] [index] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:43:22,174][INFO ][cluster.metadata         ] [Jaspers, James] [index] creating index, cause [api], shards [5]/[1], mappings []
+[2013-06-08 23:43:30,495][INFO ][cluster.metadata         ] [Jaspers, James] [index] create_mapping [fulltext]
+[2013-06-08 23:43:42,280][INFO ][cluster.metadata         ] [Jaspers, James] [index] update_mapping [fulltext] (dynamic)
+[2013-06-08 23:55:06,485][INFO ][index.analysis           ] [Jaspers, James] [testcn] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:55:06,487][INFO ][index.analysis           ] [Jaspers, James] [testcn] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:55:06,488][INFO ][index.analysis           ] [Jaspers, James] [testcn] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:55:06,492][INFO ][index.analysis           ] [Jaspers, James] [testcn] /home/kamechen/elasticsearch-0.90.1/config/mmseg
+[2013-06-08 23:55:06,506][INFO ][cluster.metadata         ] [Jaspers, James] [testcn] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-06-08 23:55:07,036][INFO ][cluster.metadata         ] [Jaspers, James] [testcn] update_mapping [user] (dynamic)
